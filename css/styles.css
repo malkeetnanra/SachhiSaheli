@@ -1,0 +1,156 @@
+/* General Styling */
+body {
+    font-family: "Montserrat-light", sans-serif;
+    text-align: center;
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; /* Ensure headings are bold */
+    color: #343a40; /* Dark text color */
+}
+
+p {
+    color: hsl(0, 0%, 0%);
+    font-size: 1.1rem; /* Slightly larger font size for paragraphs */
+    line-height: 1.6; /* Improved readability with increased line height */
+}
+
+/* Headings */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.3;
+    margin-bottom: 2rem; /* Add some space below big headings */
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.3;
+    margin-bottom: 1.5rem; /* Add space below section headings */
+}
+
+/* Containers */
+.container-fluid {
+    padding: 5% 10%; /* Adjusted padding for better content alignment */
+    max-width: 100%; /* Ensure containers use full width */
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    padding: 4rem 0; /* Increased padding for better spacing */
+}
+
+.white-section {
+    background-color: #fff;
+    padding: 4rem 0; /* Increased padding for better spacing */
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 2rem; /* Reduced padding at the bottom of the navbar */
+    background-color: #343a40; /* Dark navbar background */
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff; /* White navbar brand color */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    padding: 0.5rem 1.5rem; /* Adjusted padding for nav links */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+    color: #fff; /* White nav link color */
+}
+
+.nav-link:hover {
+    color: #ff4c68; /* Color change on hover */
+}
+
+/* Buttons */
+.btn {
+    font-weight: bold;
+}
+
+.btn-dark {
+    background-color: #343a40; /* Darker button color */
+    border-color: #343a40;
+    color: #fff; /* White text color */
+}
+
+.btn-dark:hover {
+    background-color: #23272b; /* Darker hover color */
+    border-color: #23272b;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: #ef8172;
+    padding: 4rem 0; /* Increased padding for better spacing */
+}
+
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-style: italic; /* Italicize testimonial text */
+}
+
+.testimonial-image {
+    width: 150px; /* Adjusted size for testimonial images */
+    border-radius: 50%; /* Rounded testimonial images */
+    margin: 20px; /* Spacing around testimonial images */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0; /* Increased padding for footer */
+    text-align: center;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin: 0 10px; /* Spacing between social icons */
+}
+
+.social-icon:hover {
+    color: #ef8172; /* Color change on hover */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 3% 5%; /* Adjusted padding for smaller screens */
+    }
+
+    .big-heading {
+        font-size: 2.5rem; /* Reduced font size for smaller screens */
+    }
+
+    .testimonial-image {
+        width: 100px; /* Adjusted size for testimonial images on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 2rem; /* Further reduced font size for smaller screens */
+    }
+
+    .nav-link {
+        font-size: 1rem; /* Reduced font size for navigation links */
+    }
+
+    .testimonial-text {
+        font-size: 1.5rem; /* Reduced font size for testimonial text on smaller screens */
+    }
+}
