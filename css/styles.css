@@ -35,6 +35,7 @@ p {
 .container-fluid {
     padding: 5% 10%; /* Adjusted padding for better content alignment */
     max-width: 100%; /* Ensure containers use full width */
+    text-decoration-color: #23272b;
 }
 
 /* Sections */
